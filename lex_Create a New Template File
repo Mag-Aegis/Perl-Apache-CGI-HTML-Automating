@@ -1,0 +1,27 @@
+
+
+
+
+
+==========================================================================================
+								𝚫	𝜟	 𝚫    |
+										      |
+	     	    					-------------------------+
+		    				|  HTML Template  |  ❖
+						-------------------------+
+
+
+
+
+	    |
+	    |
+----------------------------------------------------------------------------------------+
+
+
+
+   When creating a new template file for the HTML::Template module, you must lay out your
+ HTML intelligently so that it can take advantage of the module's search-and-replace fun-
+ ctionality⸺  replacing template-specific tags with dynamically generated content by
+ Perl⸺  when the Web page displays in a browser. The template creation process involves identifying which parts of the page should be replaced by dynamically generated content, and which parts should remain static. Often, the dynamic content is being sourced from something external, such as a database backend accessed thorugh Perl. The static content is usually the original HTML code that controls the page's layout, fonts, colors, and common text.
+
+The dynamic content needs to be replaced by new template elements. Some template elements can also control blocks of static HTML. For example, you may want to loop some HTML when generating
